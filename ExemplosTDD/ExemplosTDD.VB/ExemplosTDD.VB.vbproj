@@ -70,6 +70,7 @@
     <Compile Include="Capitulo02\CarrinhoDeCompras.vb" />
     <Compile Include="Capitulo02\MaiorEMenor.vb" />
     <Compile Include="Capitulo02\Produto.vb" />
+    <Compile Include="Capitulo03\ConversorDeNumeroRomano.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

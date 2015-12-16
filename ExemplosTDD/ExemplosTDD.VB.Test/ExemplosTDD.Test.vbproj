@@ -87,6 +87,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Capitulo02\TestaMaiorEMenor.vb" />
+    <Compile Include="Capitulo03\ConversorDeNumeroRomanoTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
