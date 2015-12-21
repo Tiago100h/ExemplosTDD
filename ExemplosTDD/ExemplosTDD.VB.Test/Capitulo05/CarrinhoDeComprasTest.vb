@@ -1,32 +1,54 @@
 ﻿Imports ExemplosTDD.VB.Capitulo05
+Imports ExemplosTDD.Test.Capitulo06
 Namespace Capitulo05
 
     <TestClass()>
     Public Class CarrinhoDeComprasTest
 
-        <TestMethod()>
-        Public Sub DeveRetornarZeroSeCarrinhoVazio()
-            Dim carrinho As New CarrinhoDeCompras
+        Shared _carrinho As CarrinhoDeCompras
 
-            Assert.AreEqual(0, carrinho.MaiorValor(), 0.0001)
+        <ClassInitialize()>
+        Public Shared Sub Inicializa(ByVal testContext As TestContext)
+            _carrinho = New CarrinhoDeComprasBuilder().Cria()
         End Sub
 
         <TestMethod()>
-        Public Sub DeveRetornarValorDoItemSeCarrinhoCom1Elemento()
-            Dim carrinho As New CarrinhoDeCompras
-            carrinho.Adiciona(New Item("Geladeira", 1, 900))
+        Public Sub DeveRetornarNothingSeCarrinhoVazio()
+            Dim esperado As Item = Nothing
+            Dim retornoDoTeste = _carrinho.MaiorValor()
 
-            Assert.AreEqual(900, carrinho.MaiorValor(), 0.0001)
+            Assert.AreEqual(esperado, retornoDoTeste)
+        End Sub
+
+        <TestMethod()>
+        Public Sub DeveRetornarItemSeCarrinhoCom1Elemento()
+            _carrinho = New CarrinhoDeComprasBuilder().ComItens(900).Cria()
+
+            Dim esperado = _carrinho.Itens(0)
+            Dim retornoDoTeste = _carrinho.MaiorValor()
+
+            Assert.AreEqual(esperado, retornoDoTeste)
         End Sub
 
         <TestMethod()>
         Public Sub DeveRetornarMaiorValorSeCarrinhoContemMuitosElementos()
-            Dim carrinho As New CarrinhoDeCompras
-            carrinho.Adiciona(New Item("Geladeira", 1, 900))
-            carrinho.Adiciona(New Item("Fogão", 1, 1500))
-            carrinho.Adiciona(New Item("Máquina de lavar", 1, 750))
+            _carrinho = New CarrinhoDeComprasBuilder().ComItens(900, 1500, 750).Cria()
 
-            Assert.AreEqual(1500, carrinho.MaiorValor(), 0.0001)
+            Dim esperado = _carrinho.Itens(1)
+            Dim retornoDoTeste = _carrinho.MaiorValor()
+
+            Assert.AreEqual(esperado, retornoDoTeste)
+        End Sub
+
+        <TestMethod()>
+        Public Sub DeveAdicionarItens()
+            Assert.AreEqual(False, _carrinho.Itens.Any())
+
+            Dim item = New Item("Geladeira", 1, 900)
+            _carrinho.Adiciona(item)
+
+            Assert.AreEqual(1, _carrinho.Itens.Count)
+            Assert.AreEqual(item, _carrinho.Itens(0))
         End Sub
 
     End Class

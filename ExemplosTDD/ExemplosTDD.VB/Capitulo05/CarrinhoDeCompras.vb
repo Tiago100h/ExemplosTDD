@@ -11,13 +11,13 @@
             Itens.Add(item)
         End Sub
 
-        Public Function MaiorValor() As Double
-            If Itens.Count() = 0 Then Return 0
+        Public Function MaiorValor() As Item
+            If Itens.Count() = 0 Then Return Nothing
             
-            Dim maior = Itens(0).ValorTotal
+            Dim maior = Itens(0)
             For Each item In Itens
-                If maior < item.ValorTotal Then
-                    maior = item.ValorTotal
+                If maior.ValorTotal < item.ValorTotal Then
+                    maior = item
                 End If
             Next
             Return maior

@@ -90,6 +90,7 @@
     <Compile Include="Capitulo03\ConversorDeNumeroRomanoTest.vb" />
     <Compile Include="Capitulo04\CalculadoraDeSalarioTest.vb" />
     <Compile Include="Capitulo05\CarrinhoDeComprasTest.vb" />
+    <Compile Include="Capitulo06\CarrinhoDeComprasBuilder.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
