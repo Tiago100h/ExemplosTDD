@@ -89,7 +89,7 @@
     <Compile Include="Capitulo02\TestaMaiorEMenor.vb" />
     <Compile Include="Capitulo03\ConversorDeNumeroRomanoTest.vb" />
     <Compile Include="Capitulo04\CalculadoraDeSalarioTest.vb" />
-    <Compile Include="Capitulo05\MaiorPrecoTest.vb" />
+    <Compile Include="Capitulo05\CarrinhoDeComprasTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
