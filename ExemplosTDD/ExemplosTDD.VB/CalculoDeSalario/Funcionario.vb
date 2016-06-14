@@ -1,4 +1,4 @@
-﻿Namespace Capitulo04
+﻿Namespace CalculoDeSalario
     Public Enum Cargo
         Desenvolvedor
         Dba

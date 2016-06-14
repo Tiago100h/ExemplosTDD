@@ -1,5 +1,6 @@
-﻿Imports ExemplosTDD.VB.Capitulo03
-Namespace Capitulo03
+﻿Imports ExemplosTDD.VB.NumerosRomanos
+
+Namespace NumerosRomanos
     <TestClass()> Public Class ConversorDeNumeroRomanoTest
 
         <TestMethod()> Public Sub DeveEntenderOSimboloI()

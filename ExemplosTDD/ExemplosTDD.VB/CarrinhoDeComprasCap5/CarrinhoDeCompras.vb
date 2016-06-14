@@ -1,4 +1,4 @@
-﻿Namespace Capitulo05
+﻿Namespace CarrinhoDeComprasCap5
     Public Class CarrinhoDeCompras
 
         Public Property Itens As List(Of Item)

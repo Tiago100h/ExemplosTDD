@@ -1,4 +1,4 @@
-﻿Namespace Capitulo04
+﻿Namespace CalculoDeSalario
     Public Class CalculadoraDeSalario
         Public Function CalculaSalario(ByVal funcionario As Funcionario) As Double
             If funcionario.Cargo = Cargo.Desenvolvedor Then

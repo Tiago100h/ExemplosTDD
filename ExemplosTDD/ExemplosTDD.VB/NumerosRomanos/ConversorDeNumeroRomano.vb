@@ -1,4 +1,4 @@
-﻿Namespace Capitulo03
+﻿Namespace NumerosRomanos
     Public Class ConversorDeNumeroRomano
         Public ReadOnly Tabela As New Dictionary(Of String, Integer) From
             {{"I", 1},

@@ -1,6 +1,6 @@
-﻿Imports ExemplosTDD.VB.Capitulo02
+﻿Imports ExemplosTDD.VB.CarrinhoDeComprasCap2
 
-Namespace Capitulo02
+Namespace CarrinhoDeComprasCap2
     <TestClass()> Public Class TestaMaiorEMenor
 
         <TestMethod()> Public Sub OrdemDecresecente()

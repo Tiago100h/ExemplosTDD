@@ -1,4 +1,4 @@
-﻿Namespace Capitulo02
+﻿Namespace CarrinhoDeComprasCap2
     Public Class CarrinhoDeCompras
         Public Produtos As New List(Of Produto)
 

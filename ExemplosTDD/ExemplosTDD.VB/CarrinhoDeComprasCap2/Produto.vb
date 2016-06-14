@@ -1,4 +1,4 @@
-﻿Namespace Capitulo02
+﻿Namespace CarrinhoDeComprasCap2
     Public Class Produto
         Public Property Nome As String
         Public Property Valor As Double

@@ -1,4 +1,4 @@
-﻿Namespace Capitulo02
+﻿Namespace CarrinhoDeComprasCap2
     Public Class MaiorEMenor
         Public Property Menor As Produto
         Public Property Maior As Produto

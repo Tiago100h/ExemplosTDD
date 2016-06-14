@@ -1,6 +1,7 @@
-﻿Imports ExemplosTDD.VB.Capitulo05
-Imports ExemplosTDD.Test.Capitulo06
-Namespace Capitulo05
+﻿
+Imports ExemplosTDD.VB.CarrinhoDeComprasCap5
+
+Namespace CarrinhoDeComprasCap5
 
     <TestClass()>
     Public Class CarrinhoDeComprasTest

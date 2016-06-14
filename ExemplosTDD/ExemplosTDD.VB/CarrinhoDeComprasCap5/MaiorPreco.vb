@@ -1,4 +1,4 @@
-﻿Namespace Capitulo05
+﻿Namespace CarrinhoDeComprasCap5
     Public Class MaiorPreco
         Public Function Encontra(ByVal carrinho As CarrinhoDeCompras) As Double
             If carrinho.Itens.Count() = 0 Then Return 0

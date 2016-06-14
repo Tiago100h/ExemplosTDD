@@ -1,4 +1,4 @@
-﻿Namespace Capitulo05
+﻿Namespace CarrinhoDeComprasCap5
     Public Class Item
 
         Public Property Descricao As String

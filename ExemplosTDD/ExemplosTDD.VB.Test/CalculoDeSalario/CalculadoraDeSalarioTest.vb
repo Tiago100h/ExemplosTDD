@@ -1,6 +1,6 @@
-﻿Imports ExemplosTDD.VB.Capitulo04
+﻿Imports ExemplosTDD.VB.CalculoDeSalario
 
-Namespace Capitulo04
+Namespace CalculoDeSalario
     <TestClass()> Public Class CalculadoraDeSalarioTest
         
         <TestMethod()> Public Sub DeveCalcularSalarioParaDesenvolvedoresComSalarioAbaixoDoLimite()

@@ -1,5 +1,6 @@
-﻿Imports ExemplosTDD.VB.Capitulo05
-Namespace Capitulo06
+﻿Imports ExemplosTDD.VB.CarrinhoDeComprasCap5
+
+Namespace CarrinhoDeComprasCap5
     Public Class CarrinhoDeComprasBuilder
         Dim carrinho As CarrinhoDeCompras
 
