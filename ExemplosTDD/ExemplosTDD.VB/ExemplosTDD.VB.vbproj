@@ -70,12 +70,12 @@
     <Compile Include="CarrinhoDeComprasCap2\CarrinhoDeCompras.vb" />
     <Compile Include="CarrinhoDeComprasCap2\MaiorEMenor.vb" />
     <Compile Include="CarrinhoDeComprasCap2\Produto.vb" />
-    <Compile Include="Capitulo03\ConversorDeNumeroRomano.vb" />
-    <Compile Include="Capitulo04\CalculadoraDeSalario.vb" />
-    <Compile Include="Capitulo04\Funcionario.vb" />
-    <Compile Include="Capitulo05\CarrinhoDeCompras.vb" />
-    <Compile Include="Capitulo05\Item.vb" />
-    <Compile Include="Capitulo05\MaiorPreco.vb" />
+    <Compile Include="NumerosRomanos\ConversorDeNumeroRomano.vb" />
+    <Compile Include="CalculoDeSalario\CalculadoraDeSalario.vb" />
+    <Compile Include="CalculoDeSalario\Funcionario.vb" />
+    <Compile Include="CarrinhoDeComprasCap5\CarrinhoDeCompras.vb" />
+    <Compile Include="CarrinhoDeComprasCap5\Item.vb" />
+    <Compile Include="CarrinhoDeComprasCap5\MaiorPreco.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -112,10 +112,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CalculoDeSalario\" />
     <Folder Include="Capitulo02\" />
-    <Folder Include="CarrinhoDeComprasCap5\" />
-    <Folder Include="NumerosRomanos\" />
+    <Folder Include="Capitulo03\" />
+    <Folder Include="Capitulo04\" />
+    <Folder Include="Capitulo05\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
