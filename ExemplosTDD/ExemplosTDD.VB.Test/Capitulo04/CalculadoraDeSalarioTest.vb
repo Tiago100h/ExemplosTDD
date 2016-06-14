@@ -10,7 +10,7 @@ Namespace Capitulo04
 
             Dim salario = calculadora.CalculaSalario(funcionario)
 
-            Assert.AreEqual(funcionario.Salario * 0.9, salario, 0.00001)
+            Assert.AreEqual(funcionario.Salario * 0.9, salario)
         End Sub
 
         <TestMethod()> Public Sub DeveCalcularSalarioParaDesenvolvedoresComSalarioAcimaDoLimite()
@@ -20,17 +20,27 @@ Namespace Capitulo04
 
             Dim salario = calculadora.CalculaSalario(funcionario)
 
-            Assert.AreEqual(funcionario.Salario * 0.8, salario, 0.00001)
+            Assert.AreEqual(funcionario.Salario * 0.8, salario)
         End Sub
 
         <TestMethod()> Public Sub DeveCalcularSalarioParaDbasComSalarioAbaixoDoLimite()
 
             Dim calculadora = New CalculadoraDeSalario()
-            Dim funcionario = New Funcionario("Mauricio", 500, Cargo.Dba)
+            Dim funcionario = New Funcionario("Mauricio", 1500, Cargo.Dba)
 
             Dim salario = calculadora.CalculaSalario(funcionario)
 
-            Assert.AreEqual(funcionario.Salario * 0.85, salario, 0.00001)
+            Assert.AreEqual(funcionario.Salario * 0.85, salario)
+        End Sub
+
+        <TestMethod()> Public Sub DeveCalcularSalarioParaDbasComSalarioAcimaDoLimite()
+
+            Dim calculadora = New CalculadoraDeSalario()
+            Dim funcionario = New Funcionario("Mauricio", 4500, Cargo.Dba)
+
+            Dim salario = calculadora.CalculaSalario(funcionario)
+
+            Assert.AreEqual(funcionario.Salario * 0.75, salario)
         End Sub
 
     End Class
