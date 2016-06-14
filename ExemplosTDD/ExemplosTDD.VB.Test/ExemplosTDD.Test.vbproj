@@ -132,7 +132,12 @@
       <Name>ExemplosTDD.VB</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="CalculoDeSalario\" />
+    <Folder Include="CarrinhoDeComprasCap2\" />
+    <Folder Include="CarrinhoDeComprasCap5\" />
+    <Folder Include="NumerosRomanos\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
