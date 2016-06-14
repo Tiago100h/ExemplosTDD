@@ -67,9 +67,9 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo02\CarrinhoDeCompras.vb" />
-    <Compile Include="Capitulo02\MaiorEMenor.vb" />
-    <Compile Include="Capitulo02\Produto.vb" />
+    <Compile Include="CarrinhoDeComprasCap2\CarrinhoDeCompras.vb" />
+    <Compile Include="CarrinhoDeComprasCap2\MaiorEMenor.vb" />
+    <Compile Include="CarrinhoDeComprasCap2\Produto.vb" />
     <Compile Include="Capitulo03\ConversorDeNumeroRomano.vb" />
     <Compile Include="Capitulo04\CalculadoraDeSalario.vb" />
     <Compile Include="Capitulo04\Funcionario.vb" />
@@ -113,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CalculoDeSalario\" />
-    <Folder Include="CarrinhoDeComprasCap2\" />
+    <Folder Include="Capitulo02\" />
     <Folder Include="CarrinhoDeComprasCap5\" />
     <Folder Include="NumerosRomanos\" />
   </ItemGroup>
