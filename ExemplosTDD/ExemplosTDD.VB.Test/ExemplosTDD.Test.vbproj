@@ -90,7 +90,7 @@
     <Compile Include="NumerosRomanos\ConversorDeNumeroRomanoTest.vb" />
     <Compile Include="CalculoDeSalario\CalculadoraDeSalarioTest.vb" />
     <Compile Include="CarrinhoDeComprasCap5\CarrinhoDeComprasTest.vb" />
-    <Compile Include="Capitulo05\CarrinhoDeComprasBuilder.vb" />
+    <Compile Include="CarrinhoDeComprasCap5\CarrinhoDeComprasBuilder.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -136,6 +136,7 @@
     <Folder Include="Capitulo02\" />
     <Folder Include="Capitulo03\" />
     <Folder Include="Capitulo04\" />
+    <Folder Include="Capitulo05\" />
     <Folder Include="Capitulo06\" />
   </ItemGroup>
   <Choose>
