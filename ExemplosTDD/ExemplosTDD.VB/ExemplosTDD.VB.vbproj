@@ -70,6 +70,11 @@
     <Compile Include="CarrinhoDeComprasCap2\CarrinhoDeCompras.vb" />
     <Compile Include="CarrinhoDeComprasCap2\MaiorEMenor.vb" />
     <Compile Include="CarrinhoDeComprasCap2\Produto.vb" />
+    <Compile Include="NotaFiscal\GeradorDeNotaFiscal.vb" />
+    <Compile Include="NotaFiscal\NfDao.vb" />
+    <Compile Include="NotaFiscal\NotaFiscal.vb" />
+    <Compile Include="NotaFiscal\Pedido.vb" />
+    <Compile Include="NotaFiscal\Sap.vb" />
     <Compile Include="NumerosRomanos\ConversorDeNumeroRomano.vb" />
     <Compile Include="CalculoDeSalario\CalculadoraDeSalario.vb" />
     <Compile Include="CalculoDeSalario\Funcionario.vb" />
