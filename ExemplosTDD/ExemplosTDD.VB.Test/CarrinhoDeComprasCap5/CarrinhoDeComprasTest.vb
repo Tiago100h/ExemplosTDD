@@ -43,6 +43,7 @@ Namespace CarrinhoDeComprasCap5
 
         <TestMethod()>
         Public Sub DeveAdicionarItens()
+            _carrinho.Itens.Clear()
             Assert.AreEqual(False, _carrinho.Itens.Any())
 
             Dim item = New Item("Geladeira", 1, 900)
